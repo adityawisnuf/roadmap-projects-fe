@@ -6,6 +6,10 @@
     <link rel="icon" href="./assets/images/sup.png" type="image/x-icon">
     <link rel="shortcut icon" href="./assets/images/sup.png" type="image/x-icon">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Slabo+27px&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
     <meta name="description" content="Basic HTML Website that look alike a landing page.">
     <meta name="keywords" content="Basic HTML Website, Example, Learn, Landing Page">
     <meta name="author" content="Aditya Ferdiansyah">
@@ -25,15 +29,15 @@
 
     <link rel="stylesheet" href="./style.css">
   </head>
-  <body>
+  <body id="home">
     <header>
       <div id="logo-name">
-        <img src="./assets/images/sup.png" alt="Logo" width="60">
+        <img src="./assets/images/sup.png" alt="Logo" width="70" height="70">
         <h4>Developer</h4>
       </div>
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
+          <li><a href="#" class="active">Home</a></li>
           <li><a href="./projects.html">Projects</a></li>
           <li><a href="./articles.html">Articles</a></li>
           <li><a href="./contact.html">Contact</a></li>
@@ -42,9 +46,10 @@
     </header>
     <div id="main">
       <div id="hero">
-        <h1 class="text-tnr">Frontend Developer</h1>
+        <h1>Frontend Developer</h1>  
         <span>Developing Client-side Programming</span>
       </div>
+      <hr width="100">
       <div id="container">
         <div class="section" id="projects">
           <h3>Projects</h3>
