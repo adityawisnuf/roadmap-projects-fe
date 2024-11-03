@@ -107,6 +107,10 @@ a:hover {
   gap: 20px;
 }
 
+#testi-card-3 .profile-img {
+  display: none;
+}
+
 #testi-card-3 .box-img {
   display: flex;
   justify-content: center;
@@ -187,4 +191,25 @@ a:hover {
 
 .slide:nth-child(odd) > img {
   opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+  #testimonials {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+
+  #testi-card-3 .box-img {
+    display: none;
+  }
+
+  #testi-card-3 .box-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #testi-card-3 img {
+    border-radius: 10px;
+  }
 }
